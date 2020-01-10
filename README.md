@@ -1,11 +1,11 @@
 # Go Sysctl
 
-[![GoDoc](https://godoc.org/github.com/lorenzosaino/go-sysctl?status.svg)](https://godoc.org/github.com/lorenzosaino/go-sysctl)
-[![Build Status](https://travis-ci.org/lorenzosaino/go-sysctl.svg?branch=master)](https://travis-ci.org/lorenzosaino/go-sysctl)
-[![Go Report Card](https://goreportcard.com/badge/github.com/lorenzosaino/go-sysctl)](https://goreportcard.com/report/github.com/lorenzosaino/go-sysctl)
-[![License](https://img.shields.io/github/license/lorenzosaino/go-sysctl.svg)](https://github.com/lorenzosaino/go-sysctl/blob/master/LICENSE)
+[//]: # [![GoDoc](https://godoc.org/github.com/lorenzosaino/go-sysctl?status.svg)](https://godoc.org/github.com/lorenzosaino/go-sysctl)
+[//]: # [![Build Status](https://travis-ci.org/lorenzosaino/go-sysctl.svg?branch=master)](https://travis-ci.org/lorenzosaino/go-sysctl)
+[//]: # [![Go Report Card](https://goreportcard.com/badge/github.com/lorenzosaino/go-sysctl)](https://goreportcard.com/report/github.com/lorenzosaino/go-sysctl)
+[//]: # [![License](https://img.shields.io/github/license/lorenzosaino/go-sysctl.svg)](https://github.com/lorenzosaino/go-sysctl/blob/master/LICENSE)
 
-Golang wrapper around the sysctl interface.
+Golang wrapper around the sysctl interface. Forked from [lorenzosaino/go-sysctl](https://github.com/lorenzosaino/go-sysctl)
 
 ## Documentation
 

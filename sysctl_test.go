@@ -1,9 +1,25 @@
 package sysctl
 
 import (
+	"fmt"
+	"runtime"
 	"testing"
 )
 
+func TestValueFromKey(t *testing.T) {
+	var param string
+	switch runtime.GOOS {
+	case `darwin`:
+		param = `net.inet.ip.forwarding`
+	case `linux`:
+		param = `net.ipv4.ip_forward`
+	}
+	value, err := Get(param)
+	if err != nil {
+		t.Fatalf("Error Received: %v", err)
+	}
+	fmt.Println(value)
+}
 func TestPathFromKey(t *testing.T) {
 	in := "net.ipv4.ip_forward"
 	expected := "/proc/sys/net/ipv4/ip_forward"

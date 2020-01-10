@@ -18,7 +18,7 @@ func TestValueFromKey(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Error Received: %v", err)
 	}
-	fmt.Println(value)
+	fmt.Println(">>>", param, ">", value)
 }
 func TestPathFromKey(t *testing.T) {
 	in := "net.ipv4.ip_forward"
